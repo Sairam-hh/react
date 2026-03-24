@@ -1,34 +1,11 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 10px;
 }
-
-
-body{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+.greeting{
+  background-color: rgb(15, 174, 174);
+  padding: 20px;
+  color:black;
 }
-
-div{
-  /* text-align: center; */
-  /* margin-left: 50px; */
-  font-size: 20px;
-  
-  
-}
-div>div{
-  height: 200px;
-  width: 1000px;
-  background-color:whitesmoke;
-  padding-top: 20px;
-  border-radius: 20px;
-  box-shadow:inset;
-  border: 10px solid whitesmoke;
-  
-  
+h1{
+  color: blue;
 }
