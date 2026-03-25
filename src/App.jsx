@@ -1,6 +1,7 @@
 import React from 'react'
 import Child from './child'
 import "./App.css"
+import ListRender from './ListRender'
 
 export default function App() {
   const name="sairam B"
@@ -31,11 +32,23 @@ export default function App() {
 
   return (
     <div>
+      <ListRender/>
+
+
+
+
+
+
+
+
+
+
       <Child name={name} email={email} role={role}/>
       <Child name={name1} email={email1} role={role1}/>
       <Child name={name2} email={email2} role={role2}/>
       <Child name={name3} email={email3} role={role3}/>
       <Child name={name4} email={email4} role={role4}/>
+      
       
       
       
