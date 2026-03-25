@@ -1,0 +1,50 @@
+
+commend:npm i or npm install
+
+24/03/2026
+
+## Props
+
+    Props is nothing but passing data from parent component to child component.
+
+        Declearing a Props
+        Destructuring a props
+
+## style in react
+
+    global style --- index.css,app.css 
+    external style --- to  create a seperate css file
+    module style --- we need to mension the file name as [filename.module.css]
+    inline style --- we add style properties in  {{ }}
+    object style --- we need to add style properties as object
+
+
+25/3/2026
+
+## conditional  rendering
+
+    conditional rendering means showing or hiding parts of UI based on some condition ( state,props..)
+
+        Ternary operator [condition?true:false]
+        logical operator (&& || !)
+
+## list rendering 
+
+    Rendering multiple itemm dynamically using .map()
+
+
+## useState()
+
+    useState is a react  hook that allows you to add state (data that can change over time)
+    to a functional component.
+
+    normally ,in js functionas, variable disappear after the function runs.
+    but with useState, react remember value between re-render.
+
+    syntax:
+
+        const[state,setState]=useState(initialvalue)
+
+        state-- the curent value of the variable.
+        setState-- a function that updates the  state.
+        initialvalue -- the starting  value of  the state.
