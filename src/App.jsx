@@ -1,38 +1,36 @@
 import React from 'react'
-import Child from './child'
 import "./App.css"
-import ListRender from './ListRender'
+import StudentCard from './studentCard'
 
 export default function App() {
-  const name="sairam B"
-  const email="sairambanti@thestackly.com"
-  const role="Frontend Developer"
+  const student=[
+    {id:1,name:"Sairam B",course:"javaSscript",isActive:true},
+    {id:2,name:"Rajkumar B",course:"ReactJs",isActive:false},
+    {id:3,name:"Ramya G",course:"NodeJs",isActive:true},
+    {id:4,name:"Pavan G",course:"ExpressJs",isActive:false},
+    {id:4,name:"Kevin J",course:"Python",isActive:false},
+    {id:4,name:"Naveen N",course:"MangoDB",isActive:true}
 
-  const name1="Rajkumar B"
-  const email1="Rajukumar105@gmail.com"
-  const role1="Devops Engineer"
-
-  const name2="Kevin Joseph"
-  const email2="kevinjosephrubin@thestackly.com"
-  const role2="Fullstack Developer"
-
-  const name3="Ramya Gheesala"
-  const email3="Ramyagheesala52@gmail.com"
-  const role3="Student"
-
-  const name4="Naveen Nayika"
-  const email4="naveennayika21@gmail.com"
-  const role4="Employee"
-
-
-
-
-  
-
+  ]
 
   return (
-    <div>
-      <ListRender/>
+    <div style={{ padding: "30px", fontFamily: "Arial, sans-serif" }}>
+      <h1 style={{ color: "#4a90e2", marginBottom: "30px" }}> 🎓 Student List</h1>
+      <div style={{display:"flex", flex:"wrap"}}>
+        {student.map((student)=>(
+          <StudentCard key={student.id} student={student}/>
+          
+
+        ))}
+      </div>
+
+
+
+
+
+
+
+      
 
 
 
@@ -43,11 +41,6 @@ export default function App() {
 
 
 
-      <Child name={name} email={email} role={role}/>
-      <Child name={name1} email={email1} role={role1}/>
-      <Child name={name2} email={email2} role={role2}/>
-      <Child name={name3} email={email3} role={role3}/>
-      <Child name={name4} email={email4} role={role4}/>
       
       
       
