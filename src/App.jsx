@@ -1,6 +1,7 @@
 import React from 'react'
 import "./App.css"
 import StudentCard from './studentCard'
+import RegistrationForm from './RegistrationForm'
 
 export default function App() {
   const student=[
@@ -15,14 +16,18 @@ export default function App() {
 
   return (
     <div style={{ padding: "30px", fontFamily: "Arial, sans-serif" }}>
-      <h1 style={{ color: "#4a90e2", marginBottom: "30px" }}> 🎓 Student List</h1>
+      <h1 style={{textAlign:"center",fontSize:"40px"}}>Registration Form</h1>
+      <RegistrationForm/>
+
+
+      {/* <h1 style={{ color: "#4a90e2", marginBottom: "30px" }}> 🎓 Student List</h1>
       <div style={{display:"flex", flex:"wrap"}}>
         {student.map((student)=>(
           <StudentCard key={student.id} student={student}/>
           
 
         ))}
-      </div>
+      </div> */}
 
 
 
