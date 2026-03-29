@@ -66,6 +66,9 @@ export default function RegistrationForm() {
     </div>
   );
 
+  console.log(form);
+  
+
   return (
     <div style={s.wrap}>
       <h2 style={{ margin: "0 0 1rem" }}>Register</h2>
