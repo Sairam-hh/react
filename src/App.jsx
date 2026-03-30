@@ -3,13 +3,16 @@ import "./App.css"
 import StudentCard from './studentCard'
 import RegistrationForm from './RegistrationForm'
 import Demo from './Demo'
+import Timer from './Components/StopWatch'
+import StopWatch from './Components/StopWatch'
 
 export default function App() {
   
 
   return (
-    <div style={{ padding: "30px", fontFamily: "Arial, sans-serif" }}>
-      <Demo/>
+    <div>
+      <StopWatch/>
+      {/* <Demo/> */}
       {/* <h1 style={{textAlign:"center",fontSize:"40px"}}>Registration Form</h1>
       <RegistrationForm/> */}
       
