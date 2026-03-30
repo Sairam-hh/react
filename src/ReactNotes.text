@@ -1,3 +1,37 @@
+23/3/2026
+
+## react intro
+
+    What is React?
+
+    1) React is a JavaScript library (not a framework) developed by Facebook (Meta) for building user interfaces (UIs), especially Single Page Applications (SPAs).
+
+    2) It helps developers build reusable UI components that update efficiently when data changes.
+
+    Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
+
+    -------
+    Why do we need React?
+
+	It makes UI development faster, cleaner, and more efficient.
+
+	Provides a better user experience with smooth updates without page reloads.
+
+
+    ## must need to install node.js
+ 
+## procedure to initiate project
+
+    step 1 : npm create vite@latest [project_name]
+    step 2 : select react
+    step 3 : select javascript+swc
+    step 4 : npm install                // install node module packages
+    step 5 : npm run dev 
+
+    if you want to re-run your project mean 
+        npm run dev
+
+
 
 commend:npm i or npm install
 
@@ -33,13 +67,19 @@ commend:npm i or npm install
     Rendering multiple itemm dynamically using .map()
 
 
-## useState()
+
+27/3/2026
+
+## useState() && form & Controlled input 
 
     useState is a react  hook that allows you to add state (data that can change over time)
     to a functional component.
 
     normally ,in js functionas, variable disappear after the function runs.
     but with useState, react remember value between re-render.
+
+    useState is a React Hook that allows functional components to store 
+    and manage data (state) and re-render the UI when that data changes.
 
     syntax:
 
@@ -48,3 +88,22 @@ commend:npm i or npm install
         state-- the curent value of the variable.
         setState-- a function that updates the  state.
         initialvalue -- the starting  value of  the state.
+
+30/3/2026
+
+## useEffect()
+
+        in React,useEffect is a hook that lets you perform side effect of a functional component
+        Side effect are the task that happen outside the normal React rendering process,Like:
+
+                Fetching data from API.
+                Updating the browser DOM manually.
+                Starting/stopinng timer.
+
+        syntax:
+
+            useEffect(()=>{
+                //code...
+            },[dependency 1,dependency 2.....])
+
+            []-- if we doesn't mension any dependency mean's it will run only once at the begining.
