@@ -34,7 +34,7 @@ export default function Stopwatch() {
         <h2 style={styles.title}>⏱ Stopwatch</h2>
 
         <div style={styles.timeBox}>
-          <span style={styles.time}>{timeString}</span>
+          <span style={{ ...styles.time, color: "pink" }}>{timeString}</span>
           <p style={styles.label}>HH : MM : SS</p>
         </div>
 
