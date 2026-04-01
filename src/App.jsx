@@ -5,14 +5,15 @@ import RegistrationForm from './RegistrationForm'
 import Demo from './Demo'
 import Timer from './Components/StopWatch'
 import StopWatch from './Components/StopWatch'
+import UseEffectApi from './Components/UseEffectApi'
 
 export default function App() {
   
 
   return (
     <div>
-      
-      <StopWatch/>
+      <UseEffectApi/>
+      {/* <StopWatch/> */}
       
       
       
