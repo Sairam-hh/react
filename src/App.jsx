@@ -6,14 +6,14 @@ import Demo from './Demo'
 import Timer from './Components/StopWatch'
 import StopWatch from './Components/StopWatch'
 import UseEffectApi from './Components/UseEffectApi'
+import ChatBox from './Components/ChatBox'
 
 export default function App() {
   
 
   return (
     <div>
-      <UseEffectApi/>
-      {/* <StopWatch/> */}
+      <ChatBox/>
       
       
       
