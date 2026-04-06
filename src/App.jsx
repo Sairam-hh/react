@@ -7,17 +7,20 @@ import Timer from './Components/StopWatch'
 import StopWatch from './Components/StopWatch'
 import UseEffectApi from './Components/UseEffectApi'
 import ChatBox from './Components/ChatBox'
+import UseRefHook from './Components/UseRefHook'
+import Parent from './Context/Parent'
 
 export default function App() {
   
 
   return (
     <div>
-      
-      <ChatBox/>
-      
+      <Parent/>
       
       
+      
+      
+      {/* <UseRefHook/> */}
       
 
 

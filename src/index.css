@@ -1,0 +1,19 @@
+.container{
+    height:200px;
+    width:200px;
+    background-color:skyblue;
+    cursor: pointer;
+}
+.image-ref{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.container1 { padding: 2rem; border-radius: 12px; text-align: center; transition: all 0.3s; }
+
+.light { background: #f0f0f0; color: #111; }
+.dark  { background: #1e1e2e; color: #cdd6f4; }
+.light button { background: #111; color: #fff; border: none;
+                padding: 8px 20px; border-radius: 8px; cursor: pointer; }
+.dark  button { background: #cdd6f4; color: #1e1e2e; border: none;
+                padding: 8px 20px; border-radius: 8px; cursor: pointer; }
