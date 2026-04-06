@@ -107,3 +107,42 @@ commend:npm i or npm install
             },[dependency 1,dependency 2.....])
 
             []-- if we doesn't mension any dependency mean's it will run only once at the begining.
+
+1/4/2026
+
+## useRef()
+
+    Useref is a react hook that gives you a Box (.curent) you can store anything in--
+    like : num,str,obj,function,even DOM element.
+
+    That value persists b/w render.
+
+    Updating it does not cause your component to re-render.
+    
+    {current:value}
+
+6/4/2026
+
+## useContext ()
+
+    Passing data from a parent component down to deeply nested child component is annoying.
+    Normally ,you'd have to pass props manually through each level (called props drilling).
+    useContext lets you ski all the middle component and share data directly.
+
+            create a context
+            Provide a value
+            Consume the value
+
+
+## types of domain
+
+    .com-- commercial
+    .org-- organization
+    .net-- network
+    .edu--education
+    .gov--government
+    .mil--Military
+    .co--company
+    .info--information
+    .biz--business
+    .in--india
