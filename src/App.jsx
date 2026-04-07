@@ -9,13 +9,15 @@ import UseEffectApi from './Components/UseEffectApi'
 import ChatBox from './Components/ChatBox'
 import UseRefHook from './Components/UseRefHook'
 import Parent from './Context/Parent'
+import Form from './Components/Form'
 
 export default function App() {
   
 
   return (
     <div>
-      <Parent/>
+      
+      <Form />
       
       
       
