@@ -10,6 +10,7 @@ import ChatBox from './Components/ChatBox'
 import UseRefHook from './Components/UseRefHook'
 import Parent from './Context/Parent'
 import Form from './Components/Form'
+import TicTacToe from './Components/Tic-Tac-ToeGame'
 
 export default function App() {
   
@@ -17,7 +18,7 @@ export default function App() {
   return (
     <div>
       
-      <Form />
+      <TicTacToe/>
       
       
       
