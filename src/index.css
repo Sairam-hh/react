@@ -17,3 +17,16 @@
                 padding: 8px 20px; border-radius: 8px; cursor: pointer; }
 .dark  button { background: #cdd6f4; color: #1e1e2e; border: none;
                 padding: 8px 20px; border-radius: 8px; cursor: pointer; }
+
+
+.head{
+
+    padding:10px;
+    background-color:rgb(33, 136, 174);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    
+} 
+                 
