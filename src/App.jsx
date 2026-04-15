@@ -22,48 +22,35 @@ import AppDevelopment from './Router/AppDevelopment'
 import UxDevelopment from './Router/UxDevelopment'
 import UserList from './UserList'
 import UserDetails from './UserDetails'
+import Crud from './Components/Crud'
+
 
 
 
 
 export default function App() {
-  const styles={
-    link:{
-      
-      position: "fixed",   
-      top: 0,
-      width: "100%",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      padding: "15px 30px",
-      background: "skyblue",
-      color: "#fff",
-      fontSize:"30px",
-      zIndex: 1000,
-      textDecoration: "none",
-      borderRadius: "10px",
-    }
-
-  }
   
   
 
   return (
     <div>
 
-      <BrowserRouter>
+      <Crud/>
+
+      {/* <BrowserRouter>
 
       <Link to="/user" style={styles.link}>User List</Link>
+      
       
       <Routes>
           <Route path="/user" element={<UserList/>} />
           <Route path="/user/:id" element={<UserDetails/>} />
           
+          
       </Routes>
 
 
-      </BrowserRouter>
+      </BrowserRouter> */}
 
       
       
@@ -101,3 +88,23 @@ export default function App() {
     </div>
   )
 }
+const styles={
+    link:{
+      
+      position: "fixed",   
+      top: 0,
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      padding: "15px 30px",
+      background: "skyblue",
+      color: "#fff",
+      fontSize:"30px",
+      zIndex: 1000,
+      textDecoration: "none",
+      borderRadius: "10px",
+    }
+
+  }
+  
