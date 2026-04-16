@@ -139,7 +139,7 @@ const styles = {
   },
 
   th: {
-    backgroundColor: "#007bff",
+    backgroundColor: "red",
     color: "white",
     textAlign: "center",
   },
